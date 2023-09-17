@@ -18,7 +18,5 @@ public class WeatherRequester {
         //Mapping JSON to Object (passing data from JSON to Object)
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.readValue(jsonToParse, WeatherResponse.class);
-
-
     }
 }

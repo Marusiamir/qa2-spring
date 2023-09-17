@@ -48,8 +48,155 @@ public class Current {
     @JsonProperty("alerts")
     private List<Alerts> alerts;
 
+    public long getDt() {
+        return dt;
+    }
 
+    public void setDt(long dt) {
+        this.dt = dt;
+    }
 
+    public long getSunrise() {
+        return sunrise;
+    }
 
+    public void setSunrise(long sunrise) {
+        this.sunrise = sunrise;
+    }
 
+    public long getSunset() {
+        return sunset;
+    }
+
+    public void setSunset(long sunset) {
+        this.sunset = sunset;
+    }
+
+    public double getTemp() {
+        return temp;
+    }
+
+    public void setTemp(double temp) {
+        this.temp = temp;
+    }
+
+    public double getFeelsLike() {
+        return feelsLike;
+    }
+
+    public void setFeelsLike(double feelsLike) {
+        this.feelsLike = feelsLike;
+    }
+
+    public int getPressure() {
+        return pressure;
+    }
+
+    public void setPressure(int pressure) {
+        this.pressure = pressure;
+    }
+
+    public int getHumidity() {
+        return humidity;
+    }
+
+    public void setHumidity(int humidity) {
+        this.humidity = humidity;
+    }
+
+    public double getDewPoint() {
+        return dewPoint;
+    }
+
+    public void setDewPoint(double dewPoint) {
+        this.dewPoint = dewPoint;
+    }
+
+    public int getUvi() {
+        return uvi;
+    }
+
+    public void setUvi(int uvi) {
+        this.uvi = uvi;
+    }
+
+    public int getClouds() {
+        return clouds;
+    }
+
+    public void setClouds(int clouds) {
+        this.clouds = clouds;
+    }
+
+    public long getVisibility() {
+        return visibility;
+    }
+
+    public void setVisibility(long visibility) {
+        this.visibility = visibility;
+    }
+
+    public double getWindSpeed() {
+        return windSpeed;
+    }
+
+    public void setWindSpeed(double windSpeed) {
+        this.windSpeed = windSpeed;
+    }
+
+    public double getWindDeg() {
+        return windDeg;
+    }
+
+    public void setWindDeg(double windDeg) {
+        this.windDeg = windDeg;
+    }
+
+    public double getWindGust() {
+        return windGust;
+    }
+
+    public void setWindGust(double windGust) {
+        this.windGust = windGust;
+    }
+
+    public List<Weather> getWeathers() {
+        return weathers;
+    }
+
+    public void setWeathers(List<Weather> weathers) {
+        this.weathers = weathers;
+    }
+
+    public List<Minutely> getMinutelies() {
+        return minutelies;
+    }
+
+    public void setMinutelies(List<Minutely> minutelies) {
+        this.minutelies = minutelies;
+    }
+
+    public List<Hourly> getHourlies() {
+        return hourlies;
+    }
+
+    public void setHourlies(List<Hourly> hourlies) {
+        this.hourlies = hourlies;
+    }
+
+    public List<Daily> getDailies() {
+        return dailies;
+    }
+
+    public void setDailies(List<Daily> dailies) {
+        this.dailies = dailies;
+    }
+
+    public List<Alerts> getAlerts() {
+        return alerts;
+    }
+
+    public void setAlerts(List<Alerts> alerts) {
+        this.alerts = alerts;
+    }
 }
